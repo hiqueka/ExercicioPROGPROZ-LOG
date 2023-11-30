@@ -1,0 +1,17 @@
+import java.util.*;
+public class exerciciod {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+    int largura, altura, area;
+
+    System.out.print("Digite a largura do retangulo: ");
+    largura = entrada.nextInt();
+
+    System.out.print("Digite a altura do retangulo: ");
+    altura = entrada.nextInt();
+
+    area = largura*altura;
+
+    System.out.print("A area do retangulo e "+area);
+    }
+}
