@@ -1,0 +1,14 @@
+import java.util.*;
+public class exercicioc {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int celsius, fahrenheit;
+
+        System.out.print("Insira a temperatura em celsius: ");
+        celsius = entrada.nextInt();
+
+        fahrenheit = (celsius*9/5)+32;
+
+        System.out.print("Temperatura em fahrenheit: "+fahrenheit);
+    }
+}
