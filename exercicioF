@@ -1,0 +1,18 @@
+import java.util.*;
+public class exerciciof {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int valor, desconto;
+
+        System.out.print("Insira um valor: ");
+        valor = entrada.nextInt();
+
+        System.out.print("Insira o desconto: ");
+        desconto = entrada.nextInt();
+
+        desconto = (valor*desconto)/100;
+
+        System.out.print("O valor em desconto: "+desconto);
+
+    }
+}
