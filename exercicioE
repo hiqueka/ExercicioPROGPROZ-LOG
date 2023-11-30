@@ -1,0 +1,18 @@
+import java.util.*;
+public class exercicioe {
+    public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);        
+        int peso, altura, imc;
+        
+        System.out.print("Digite seu peso");
+        peso = entrada.nextInt();
+
+        System.out.print("Digite altura");
+        altura = entrada.nextInt();
+
+        imc = peso/(altura*altura);
+
+        System.out.print("Seu IMC é"+imc);
+        
+    }
+}
