@@ -1,0 +1,32 @@
+import java.util.*;
+public class exercicioj {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        Float n1,n2,n3,p1,p2,p3, media,peso;
+
+         System.out.print("Digite a primeira nota: ");
+        n1 = entrada.nextFloat();
+
+         System.out.print("Digite a segunda nota: ");
+        n2 = entrada.nextFloat();
+        
+         System.out.print("Digite a terceira nota: ");
+        n3 = entrada.nextFloat();
+
+         System.out.print("Digite o primeiro peso: ");
+        p1 = entrada.nextFloat();
+
+         System.out.print("Digite o segundo peso: ");
+        p2 = entrada.nextFloat();
+
+         System.out.print("Digite o terceiro peso: ");
+        p3 = entrada.nextFloat();
+
+
+        media = n1*p1+n2*p2+n3*p3;
+        peso = p1+p2+p3;
+        media = media/peso;
+
+         System.out.print("media ponderada "+media);
+    }
+}
