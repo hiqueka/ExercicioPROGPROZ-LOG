@@ -1,0 +1,20 @@
+import java.util.*;
+public class exercicioh {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        Float idade,dias,mes;
+
+         System.out.print("Digite sua idade: ");
+        idade = entrada.nextFloat();
+         
+        dias = idade*365;
+
+        System.out.println("Dias vividos: "+dias);
+
+        mes = dias/30;
+
+        System.out.println("mêses vividos: "+mes);
+
+
+    }
+}
