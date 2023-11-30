@@ -1,0 +1,19 @@
+import java.util.*;
+public class exerciciog {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int valor,juros,anos,montante;
+
+         System.out.print("Insira o valor principal: ");
+        valor = entrada.nextInt();
+
+         System.out.print("Insira o juros: ");
+        juros = entrada.nextInt();
+
+         System.out.print("Insira a quantidade de anos: ");
+        anos = entrada.nextInt();
+
+        montante = valor+(valor*juros*anos/100);
+        System.out.print("Juros Simples: "+montante);
+    }
+}
